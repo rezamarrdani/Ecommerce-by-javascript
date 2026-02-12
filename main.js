@@ -1,2 +1,3 @@
-import {sayHello} from ".modules/test/index.js";
-sayHello()
+import { mainHeader } from "./moldules/main-header/main-header.js";
+
+document.body.append(mainHeader)
