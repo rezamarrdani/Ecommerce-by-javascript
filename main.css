@@ -1,3 +1,5 @@
 @import url("./assets/variables.css");
 @import url("./moldules/main-header/main-header.css");
 @import url("./moldules/logo/logo.css");
+@import url("./moldules/container/container.css");
+@import url("./moldules/navbar/navbar.css");
