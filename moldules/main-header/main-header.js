@@ -4,6 +4,6 @@ import { navbar } from "../navbar/navbar.js";
 
 export const mainHeader=document.createElement("header");
 mainHeader.classList.add("main-header");
-container.append(navbar,logo)
+container.append(logo, navbar)
 mainHeader.append(container)
 
