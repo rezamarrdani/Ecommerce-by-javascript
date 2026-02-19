@@ -1,4 +1,4 @@
 import { burgerMenu } from "./moldules/burger/burger.js";
 import { mainHeader } from "./moldules/main-header/main-header.js";
 
-document.body.append(mainHeader)
+document.body.append(mainHeader, burgerMenu)
