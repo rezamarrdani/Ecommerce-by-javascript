@@ -5,7 +5,7 @@
     cursor: pointer;
 }
 .burger-menu{
-    display: flex;
+    opacity: 1;
 }
 .burger-menu{
     width: 100%;
