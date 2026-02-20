@@ -14,6 +14,9 @@ function toggleDisplay()
     let opacity=window.getComputedStyle(burgerMenu).opacity;
     opacity=opacity=="1"?opacity="0":opacity="1";
     burgerMenu.style.opacity=opacity;
+    burgerMenu.style.pointerEvents=opacity=="0"?"none":"all"
+    burgerMenu.style.userSelect=opacity=="0"?"none":"auto"
+
 }
 
 const favIcon=document.createElement("div");
