@@ -8,4 +8,3 @@ export const mainHeader=document.createElement("header");
 mainHeader.classList.add("main-header");
 container.append(logo, navbar, burgerIcon, cartIcon)
 mainHeader.append(container)
-
